@@ -1,18 +1,22 @@
-@import url('https://i01.lanzoug.com:446/08132000131549340bb/2023/08/13/1820367bcb39529149ea1b60cc84cbeb.ttf?st=kIgH4jVtcJJ7zhgBlBCorQ&e=1691933383&b=CBhdKFQgBHVZYwI6Cg4Ob1Z7XXUCLQByBCMBag_c_c&fi=131549340&pid=120-43-122-231&up=2&mp=0&co=0');
+@font-face{
+    font-family:'Custom';
+    src:url('font.ttf')
+}
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins',sans-serif
+    font-family:'Custom',sans-serif
 }
 body{
     display:flex;
     justify-content:center;
+    min-height:50vh;
     align-items: center;
-    min-height:100vh;
     background:#000;
 }
 .container{
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -51,6 +55,9 @@ body{
 }
 .container a:nth-child(3){
     filter:hue-rotate(122deg);
+}
+.container a:nth-child(4){
+    filter:hue-rotate(623deg);
 }
 
 /* LEFT LIGHT */
